@@ -6,6 +6,8 @@ Essentially it's a CCTV system, but it's meant specifically for watching birds a
 
 The system is divided into several microservices, each of which is a seperate GoLand project. This structure allows one or more services to go offline without bringing down the entire system, and for different services to be optionally offloaded onto different physical machines for better performance. It also allows the system to be easily configured to incorporate multiple IP cameras.
 
+All of the microservices are controlled with systemctl and they each have a config JSON file in /etc/bird-watcher-$VERSION.
+
   1.1 WEBCAM CONTROLLER SERVICE
   -----------------------------
   
