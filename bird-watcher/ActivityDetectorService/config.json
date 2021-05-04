@@ -1,0 +1,7 @@
+{
+  "webcam-url": "http://127.0.0.1:8082",
+  "frame-buffer-size": 100,
+  "activity-threshold": 0.4,
+  "consecutive-active-frames-required": 4,
+  "output-dir": "/home/jake/Desktop"
+}

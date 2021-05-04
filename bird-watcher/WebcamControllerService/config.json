@@ -1,0 +1,8 @@
+{
+  "stream-port": 8082,
+  "video-device": "/dev/video0",
+  "width": 640,
+  "height": 480,
+  "single-frame-mode": true,
+  "max-sockets": 5
+}
