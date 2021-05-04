@@ -11,7 +11,9 @@ All of the microservices are controlled with systemctl and they each have a conf
   1.1 WEBCAM CONTROLLER SERVICE
   -----------------------------
   
-  blah
+  This one's pretty simple (it's only about 400 lines!) This microservice's job is to read raw data from a video device, convert it to JPEG, and stream it over HTTP. If you already have an IP camera, then you don't need to use this microservice because all it does is turn a USB webcam into an IP camera.
+  
+  The BlackJack library (github.com/blackjack/webcam) is used to interact with the Video4Linux susbsystem. This microservice is super-lightweight, so it can run on even a really underpowered device.
   
   1.2 ACTIVITY DETECTOR SERVICE
   -----------------------------
