@@ -1,9 +1,9 @@
 package main
 
 import (
-	"ActivityDetectorService/ImageTools"
 	"errors"
 	"fmt"
+	"github.com/pryce-jones-systems/go-image-tools/ImageTools"
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/basicfont"
 	"golang.org/x/image/math/fixed"
